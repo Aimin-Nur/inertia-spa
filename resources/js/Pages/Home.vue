@@ -1,5 +1,7 @@
+<script setup>
+    import PublicLayout from '../Layouts/PublicLayout.vue';
+    defineOptions({ layout: PublicLayout });
+</script>
 <template>
-    <div>
-        <h1>Hello Word</h1>
-    </div>
+    <h1>Hello Word</h1>
 </template>
